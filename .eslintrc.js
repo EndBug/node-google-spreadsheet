@@ -33,6 +33,7 @@ module.exports = {
       exports: 'always-multiline',
       functions: 'never', // this breaks
     }],
+    'semi': ['error', 'never']
   },
   overrides: [
     { // extra jest related rules for tests
